@@ -1,0 +1,120 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+
+}
+
+.sidebar{
+    background-color: yellow;
+    width: 340px;
+    border-radius: 1rem;
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.music-player{
+    background-color: rgb(76, 76, 76);
+    position: fixed;
+    top: 0;
+    width: 85%;
+    height: 72px;
+    margin-left: 22%;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    background-color: rgb(52, 52, 52);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 100%;
+    padding: 0.5rem 0.7rem;
+
+}
+
+.nav-option{
+    line-height: 40px; 
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    color: white;
+}
+.nav-option:hover{
+    line-height: 40px; 
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+    color: red;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.head{
+    margin-left: 1rem;
+    line-height: 60px;
+    font-size: 1.5rem;
+}
+.bottom{
+    margin-left: 1rem;
+    position: absolute;
+    bottom: 3%;
+}
+
+.music-player{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start-play{
+    background-color: pink;
+    width: 25%;
+    color: grey;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.center-play{
+    display: flex;
+    background-color: green;
+    
+    align-content: center;
+    width: 50%;
+}
+.center-mid{
+    margin-left: 5rem;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 80%;
+    background-color: #121212;
+}
+.end-play{
+    background-color: yellow;
+    width: 25%;
+}
